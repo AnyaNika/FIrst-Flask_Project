@@ -1,10 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Title</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 <body>
-
+    <ul class="nav nav-pills">
+        <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="/">Главная страница</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" href="/blog">Блог</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/contacts">Контакты</a>
+        </li>
+    </ul>
+<div class="container my-5">
+    <div class="accordion" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            1. Почему малый бизнес — двигатель перемен.
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>Малый бизнес сегодня —</strong>  это не просто способ заработать, а возможность менять мир вокруг себя. Мы, как команда энтузиастов, видим, как каждое небольшое решение может повлиять на развитие целой отрасли. Предпринимательство — это постоянный поиск идей, работа с людьми и желание делать что-то лучше. Наш опыт показывает: даже маленькая команда способна воплотить большие мечты в жизнь!
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            2. Сила командной работы в стартапе
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            Когда команда небольшая, <strong>каждый участник действительно важен.</strong> Мы убедились — успех приходит там, где люди поддерживают друг друга и не боятся брать на себя ответственность. В стартапе нет чужих задач: каждый готов помочь, внести идею или просто подставить плечо. Именно сплочённость и открытость позволяют двигаться быстрее и делать больше.          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            3. Как не бояться ошибок на пути к успеху
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+             Ошибка — не повод сдаваться, а возможность стать лучше. Мы не раз сталкивались с неудачами, но каждый раз вставали и шли дальше. Главное — анализировать, учиться и не повторять старых промахов. В бизнесе <strong>выигрывает тот</strong> , кто не боится пробовать новое и учиться на собственном опыте. Мы уверены: путь к успеху невозможен без ошибок, но именно они делают нас сильнее!          </div>
+        </div>
+      </div>
+    </div>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
